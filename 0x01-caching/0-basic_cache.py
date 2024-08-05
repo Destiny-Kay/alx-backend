@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''Basic cache class.'''
-BaseCaching = __import__('base_caching.py').BaseCaching
+from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
